@@ -7,15 +7,15 @@ namespace FactoryMethod.Factories
     /// </summary>
     public abstract class CarFactory
     {
-        protected abstract Car CreateCar(string model);
+        protected abstract Car CreateCar();
 
-        public Car GetCar(string model)
+        public Car GetCar()
         {
-            var car = CreateCar(model);
+            var car = CreateCar();
 
             // optional business logic can go here
 
-            if (model == "Clio" && car.Colour == "Red")
+            if (car.Colour == "Red")
             {
                 car.IsVintage = true;
             }

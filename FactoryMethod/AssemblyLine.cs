@@ -12,9 +12,9 @@ namespace FactoryMethod
             _carFactory = carFactory;
         }
 
-        public Car Produce(string model)
+        public Car Produce()
         {
-            return _carFactory.GetCar(model);
+            return _carFactory.GetCar();
         }
     }
 }
