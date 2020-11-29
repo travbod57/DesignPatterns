@@ -1,4 +1,4 @@
-﻿namespace Builder
+﻿namespace StandardBuilder
 {
     public interface IBuilder
     {

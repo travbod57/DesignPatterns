@@ -1,4 +1,4 @@
-﻿namespace Builder
+﻿namespace StandardBuilder
 {
     // The Director is only responsible for executing the building steps in a
     // particular sequence. It is helpful when producing products according to a
